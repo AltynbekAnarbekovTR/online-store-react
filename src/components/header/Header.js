@@ -8,8 +8,10 @@ import logoImg from "../../assets/logo.png";
 const logo = (
   <div className={styles.logo}>
     <Link to="/">
-      <FaStore size={28} color="white" />
-      <h2>BuyBuy</h2>
+      <FaStore size={28} color="greenyellow" />
+      <h2>
+        Buy<span>Buy</span>
+      </h2>
     </Link>
   </div>
 );
